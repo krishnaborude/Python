@@ -1,0 +1,15 @@
+.idea/
+*.pyc
+__pycache__
+venv/
+.env
+.DS_Store
+*.log
+coverage
+htmlcov/
+*.sqlite3
+.vscode/
+node_modules/
+dist/
+build/
+*.egg-info/

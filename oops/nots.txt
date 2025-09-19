@@ -1,0 +1,70 @@
+self is refrence to the caurent incens of class it all of the 
+
+self.name refer to name of the object 
+
+call the methed 
+
+init is a consarter in python init is autmatcly call when new object is created 
+
+class and insent varable
+i python varible define the class is class varible this are the varable that are seadr in use multiple
+insent of the class is define is a class key word all object is in class seard some value explacity over arend in object
+
+
+insent varable 
+varable is that to each insent are that object init conseter with in the methed all other insent methed each object 
+each object one copy of each insent independ of all object
+
+class dog:
+   def 
+
+@staticmethod
+static methed is methed inside class that dose not depinds object or insent 
+
+
+abstraction
+hiding the implemetotion details of a class and showing only functionality to user is called abstraction
+it foucus what and object of an 
+eg- when you drive car you only see brack and accelaret you dont see engin work internaly 
+
+a methed declere but not do 
+
+
+
+use to delete object propety or 
+
+
+class Student:
+  def __init__(self,name):
+     self.name= name
+s1= Student("krishna")
+del s1.name
+print(s1.name)
+
+private varible:-
+if you want to varible private .__ we can  private varible
+they can not access form outside the class
+
+
+class Account:
+
+  def __init__(self,acc_no,acc_pass):
+     self.acc_no=acc_no
+     self.acc_pass=acc_pass
+  def reset (self):
+     print(self.acc_pass)
+acc = Account("ABC",1234)
+print(acc.acc_pass)
+print(acc.reset())
+
+
+
+
+
+referernce variable
+- referernce variables hold the object
+- we can create object without referernce variable as well
+- an object can have multiple referernce variable
+- assigning a new referernce variables to an existing object does not create a new object
+
+
